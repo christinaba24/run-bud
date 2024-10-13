@@ -1,2 +1,3 @@
-# run-bud
-Real time AI running companion
+# Runbud
+
+Real Time AI Training Buddy

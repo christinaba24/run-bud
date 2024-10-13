@@ -1,0 +1,73 @@
+[data-component='SetupPage'] {
+    font-family: 'SF Pro';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    /* Centers the image horizontally */
+    align-items: center;
+    height: 100vh;
+}
+
+.initialText {
+    font-size: 40px;
+    font-family: 'SF Pro';
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.image {
+    height: 150px;
+    width: 100px;
+    padding-top: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.caption {
+    font-family: 'SF Pro', monospace;
+    font-size: 15px;
+    font-style: italic;
+}
+
+/* Overlay styles */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fffcf9;
+    /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.overlay-content {
+    text-align: center;
+    color: black;
+}
+
+.image {
+    width: 100px;
+    cursor: pointer;
+}
+
+.caption {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.spacer {
+    height: 20px;
+}
